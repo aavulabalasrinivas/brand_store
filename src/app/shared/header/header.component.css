@@ -63,9 +63,8 @@
 }
 
 .booksmart-text{
-    position: fixed;
-    color: white;
-    margin-top: -15px;
+    position: sticky;
+    color: white;    
 }
 
 .dropdown-container{
