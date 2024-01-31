@@ -1,0 +1,17 @@
+.product-details-container{
+    margin-top: 40px;
+
+}
+
+.w-300{
+    width: 300px;
+}
+
+.btn-theme{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(200, 200, 0);
+    padding: 2px 12px;
+    color: white;
+}

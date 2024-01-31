@@ -1,0 +1,98 @@
+.header{
+    background-color: rgb(10, 10, 190);
+    padding: 0 20px;
+    position: sticky;   
+    top: 0;
+    z-index: 99;
+    
+}
+.mainlogo{
+    cursor: pointer;
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    padding: 2px 0;
+    top: 0;
+}
+.search-box{
+    border: none;
+    border-radius: 5px;
+}
+.btn-theme{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(200, 200, 0);
+    padding: 2px 12px;
+    color: white;
+}
+.head-right-item{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.cart{
+    position: relative;
+    cursor: pointer;
+    outline: none;
+}
+.cart-image{
+    color: rgb(200, 200, 0);    
+}
+
+.site-title{
+    margin-left: 15vw;
+    font-variant: small-caps;
+}
+.cart-items{
+    color: white;
+    background-color: rgb(200, 200, 1);
+    position: absolute;
+    min-width: 15px;
+    height: 15px;
+    right: 40px;
+    top: -5px;
+    border-radius: 50%;
+    padding: 2px;
+    outline: white solid 2px;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    line-height: 11px;
+}
+
+.booksmart-text{
+    position: fixed;
+    color: white;
+    margin-top: -15px;
+}
+
+.dropdown-container{
+    position: relative;
+}
+
+.dropdown-list{
+    width: 80px;
+    border: 1px solid white;
+    background-color: #3498DB;
+    position: absolute;
+    top: 18px;
+    left: -107px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.dropdown-list-item{
+    text-transform: capitalize;
+    cursor: pointer;
+   
+}
+
+.w-250{
+    width: 205px;
+}
+
+.dropdown-list-item:hover{
+    color: yellow;
+}

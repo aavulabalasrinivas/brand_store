@@ -1,0 +1,33 @@
+<div class="header d-flex align-items-center">
+    <a routerLink="home"><img src="assets/book2.avif" alt="book mart" class="mainlogo"></a>
+    <form #searchBox="ngForm">
+        <div class="header-search ms-3 d-flex align-items-center">
+            <input type="text" [(ngModel)]="searchText" placeholder="search for books" class="search-box"
+             name="searchText" (keyup)="searchBook(searchText)">
+        </div>
+    </form>
+    <button class="btn-theme ms-4 text-uppercase" (click)="showSortMenu()">sort</button>
+    <div class="dropdown-container" *ngIf="isSortMenuVisible">
+        <div class="dropdown-list row w-250">
+            <span class="dropdown-list-item" *ngFor="let criterion of criteria" 
+            (click)="sortBooks(criterion)">{{criterion}}</span>
+
+        </div>
+
+    </div>
+    <div class="site-title">
+        <h4 routerLink="home" role="button" class="booksmart-text">Books Mart</h4>
+    </div>
+    <div class="head-right-item">
+        <div class="cart" routerLink="cart">
+            <i class="fa-solid fa-cart-shopping cart-image fs-3 me-5"></i>
+            <div class="cart-items" *ngIf="cartItemCount">
+                {{cartItemCount}}
+            </div>
+        </div>
+        <div class="login btn-theme">
+            <span role="button" routerLink="home">LOGIN</span>
+        </div>
+    </div>
+
+</div>

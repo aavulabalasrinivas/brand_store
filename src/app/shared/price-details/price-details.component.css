@@ -1,0 +1,19 @@
+.price-details{
+    width: 350px;
+    height: fit-content;
+    border: 1px solid #566573;
+    background-color: #566573;
+    border-radius: 10px;
+    position: fixed;
+    right: 125px;
+    color: white;
+}
+
+.total-amount{
+    border-top: 1px dashed grey;
+    padding-top: 10px;
+}
+
+.text{
+    color: #D4AC0D;
+}

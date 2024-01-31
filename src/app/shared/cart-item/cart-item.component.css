@@ -1,0 +1,51 @@
+.book-card{
+    min-height: 250px;
+    width: 80%;
+    border: 1px solid #566573;
+    background-color: #566573;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.book-thumbnail{
+    width: 100px;
+    border-radius: 5px;
+}
+
+.btn-theme{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: white;
+    outline: none;
+    background-color: #D4AC0D;
+}
+
+.action-icon{
+    width: 14px;
+    height: 10px;
+    line-height: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 3px 0;
+}
+
+.w-fit{
+    width: fit-content;
+}
+
+.text{
+    color:rgb(200, 200, 0) ;
+}
+
+.remove-text{
+    margin-top: auto;
+    width: 7vw;
+    height: 2vw;
+    line-height: 1vw;
+}
+
+.main-text{
+    color: white;
+}

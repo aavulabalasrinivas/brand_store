@@ -1,0 +1,44 @@
+.cart{
+    margin: 0 75px;
+}
+
+.empty-cart{
+    margin-top: 50px;
+}
+
+.text-large{
+    font-size: 80px;
+}
+
+.text-theme{
+    color: rgb(200, 200, 0);
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.cart-empty-image{
+    padding: 1px;
+    font-size: 12vw;
+}
+
+.btn-theme{
+    background-color: rgb(200, 200, 0);
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    color: white;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+    width: 20vw;
+}
+
+.btn-checkout{
+    position: fixed;
+    right: 125px;
+    top: 350px;
+    width: 350px;
+}

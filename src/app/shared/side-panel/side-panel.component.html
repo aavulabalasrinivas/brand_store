@@ -1,0 +1,41 @@
+<div class="side-panel">
+    <div class="panel-heading">
+        <span>Filters</span><br>
+    </div>
+    <div class="filter-price d-flex justify-content-between">
+        <span style="font-weight: 400;">Categories</span>
+    </div>
+    <!-- <div class="dropdown-container" *ngIf="isPriceFiltersVisible">
+        <div class="dropdown-list price-filter-list row">
+            <span class="dropdown-list-item" *ngFor="let priceFilter of priceFilters"
+            (click)="filterBooksByPrice(priceFilter)" >upto ₹{{priceFilter}}</span>
+        </div>
+    </div> -->
+    <div class="filter-price d-flex justify-content-between" style="cursor: pointer;" (click)="showPriceFilters()">
+        <span style="font-weight: 400;">Price</span>
+    </div>
+    <div class="dropdown-container" *ngIf="isPriceFiltersVisible">
+        <div class="dropdown-list price-filter-list row">
+            <span class="dropdown-list-item" *ngFor="let priceFilter of priceFilters"
+            (click)="filterBooksByPrice(priceFilter)" >₹{{priceFilter}}</span>
+        </div>
+    </div>
+    <div class="filter-price d-flex justify-content-between">
+        <span style="font-weight: 400;">Discount</span>
+    </div>
+    <!-- <div class="dropdown-container" *ngIf="isPriceFiltersVisible">
+        <div class="dropdown-list price-filter-list row">
+            <span class="dropdown-list-item" *ngFor="let priceFilter of priceFilters"
+            (click)="filterBooksByPrice(priceFilter)" >upto ₹{{priceFilter}}</span>
+        </div>
+    </div> -->
+    <div class="filter-price d-flex justify-content-between">
+        <span style="font-weight: 400;">Top rated</span>
+    </div>
+    <!-- <div class="dropdown-container" *ngIf="isPriceFiltersVisible">
+        <div class="dropdown-list price-filter-list row">
+            <span class="dropdown-list-item" *ngFor="let priceFilter of priceFilters"
+            (click)="filterBooksByPrice(priceFilter)" >upto ₹{{priceFilter}}</span>
+        </div>
+    </div> -->
+</div>

@@ -1,0 +1,25 @@
+<div class="book-card d-flex justify-content-start p-4">
+    <div class="left-container">
+        <div class="d-flex justify-content-center">
+            <img class="book-thumbnail" [src]= "item.thumbnailUrl" alt="product-image">
+        </div>
+        <div class="counter d-flex justify-content-center mt-5">
+            <button class="btn-theme d-flex align-items-center" (click)="decItemCount(item)" [disabled]= "item.count==1">
+            <i class="fa-solid fa-square-minus action-icon"></i></button>
+            <div class="text-center w-50">{{item.count}}</div>
+            <button class="btn-theme d-flex align-items-center" (click)="incItemCount(item)">
+            <i class="fa-solid fa-square-plus action-icon"></i></button>
+        </div>
+    </div>
+    <div class="right-container ms-5 d-flex flex-column">
+        <h2 class="main-text">{{item.title}}</h2>
+        <div>
+            <h3 class="main-text">{{discountedPrice|currency:'INR'}}</h3>
+            <span class="ms-2"><s class="text">{{itemPrice|currency:'INR'}}</s></span>
+            <span class="ms-2 text">{{item.discount}}% off</span>
+        </div>
+        <button class="btn-theme remove-text" (click)="removeItem(item)">Remove</button>
+
+    </div>
+
+</div>

@@ -1,0 +1,45 @@
+.side-panel{
+    background-color: #3498DB;
+    width: 250px;
+    height: 650px;
+    border: 1px solid #3498DB;
+}
+
+.panel-heading{
+    padding: 10px;
+    color: #ffe6c6;
+    font-size: 26px;
+    border-bottom: 1px solid #ffe6c6;
+    margin-top: 3vw;
+}
+
+.filter-price{
+    padding: 8px 15px;
+    color: #ffe6c6;
+    font-size: 18px;
+    border-bottom: 1px solid #ffe6c6;
+}
+
+.dropdown-container{
+    position: relative;
+}
+
+.dropdown-list{
+    position: absolute;
+    border: 1px solid white;
+    background-color: #3498DB;
+    left: 270px;
+    top: -60px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+}
+
+.dropdown-list-item{
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.dropdown-list-item:hover{
+    color: yellow;
+}
